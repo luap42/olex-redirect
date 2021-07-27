@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Olex-Redirect</title>
+    
+    <style>
+      .choice {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <p>You chose:</p>
+    <div class="choice"></div>
+    <script>
+      document.querySelector("choice").innerText = window.location.hostname;
+    </script>
+  </body>
+</html>
